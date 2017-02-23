@@ -1,10 +1,18 @@
 {
-  "presets": ["es2015", "react", "stage-0"],
-  "plugins": ["transform-object-rest-spread"],
+  "presets": [
+    "es2015",
+    "react",
+    "stage-0"
+  ],
+  "plugins": [
+    "transform-object-rest-spread"
+  ],
   "env": {
     "development": {
-      // 在打包时注释掉下面这行代码
-    //   "presets": ["react-hmre"]
+      // 热加载，在打包时需要注释掉
+      /*"presets": [
+        "react-hmre"
+      ]*/
     }
   }
 }
