@@ -1,0 +1,10 @@
+.item-show-layer-component {
+	min-height: 200px;
+	border: 1px solid #ddd;
+	.no-select {
+		color: #ddd;
+		height: 200px;
+		line-height: 200px;
+		text-align: center;
+	}
+}

@@ -1,0 +1,11 @@
+.list-group {
+	.create-bar-component {
+		background: #2075d8;
+		color: #fff;
+		&:hover {
+			background: darken(#0275d8, 20%);
+			color: #fff;
+			text-decoration: none;
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"exends": "airbnb",
+	"parser": "babel-eslint",
+	"rules": {},
+	"plugins": [
+        "eslint-plugin-import"
+    ]
+} 
